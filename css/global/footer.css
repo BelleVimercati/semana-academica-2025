@@ -1,0 +1,21 @@
+footer {
+  background: var(--roxo-escuro);
+  color: var(--branco);
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+footer .socials {
+  margin-top: 1rem;
+}
+
+footer .socials img {
+  width: 28px;
+  margin: 0 8px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s;
+}
+
+footer .socials img:hover {
+  transform: scale(1.1);
+}
