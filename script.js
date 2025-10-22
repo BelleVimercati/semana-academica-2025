@@ -83,6 +83,7 @@ jsonData.data.forEach((item) => {
   card.innerHTML = `
     <img src="${item.image.medium}" alt="${item.title}">
     <h3>${item.title}</h3>
+    <button class="btn-card">Ver mais</button>
   `;
   gallery.appendChild(card);
 });
